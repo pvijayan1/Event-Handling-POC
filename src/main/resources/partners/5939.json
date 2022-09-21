@@ -1,0 +1,63 @@
+{
+  "pid": 5939,
+  "name": "ROKU",
+  "restEndPoints": [
+    {
+      "request": "SIGNIN",
+      "attributes": {
+        "SESSION_VAL_REQ": false,
+        "SESSION_FACTORY": "AUTH_SESSION",
+        "REMEMBER_ME_TTL_MILLIS": 7776000,
+        "DEFAULT_TTL_MILLIS": 900,
+        "CAPTCHA_VAL_REQ": false
+      }
+    },
+    {
+      "request": "PAYLOAD",
+      "attributes": {
+        "SESSION_VAL_REQ": true,
+        "SESSION_FACTORY": "AUTH_SESSION"
+      }
+    },    
+    {
+      "request": "SIGNOUT",
+      "attributes": {
+        "SESSION_VAL_REQ": true,
+        "SESSION_FACTORY": "AUTH_SESSION"
+      }
+    },
+    {
+      "request": "SESSIONINFO",
+      "attributes": {
+        "SESSION_VAL_REQ": true,
+        "SESSION_FACTORY": "AUTH_SESSION",
+        "PLATFORM_NAME": "rokutv"
+      }
+    },
+    {
+      "request": "VALIDATEPROUSER",
+      "attributes": {
+        "SESSION_VAL_REQ": true,
+        "SESSION_FACTORY": "AUTH_SESSION"
+      }
+    },    
+   {
+      "request": "ROKUSAVETRANSACTION",
+      "attributes": {
+        "SESSION_VAL_REQ": true,
+        "SESSION_FACTORY": "AUTH_SESSION"
+      }
+    },  
+    {
+      "request": "REGISTER",
+      "attributes": {
+        "SESSION_VAL_REQ": false,
+        "SESSION_FACTORY": "AUTH_SESSION",
+        "REMEMBER_ME_TTL_MILLIS": 7776000,
+        "DEFAULT_TTL_MILLIS": 900,
+        "CAPTCHA_VAL_REQ": false
+        
+      }
+    }
+  ]
+}

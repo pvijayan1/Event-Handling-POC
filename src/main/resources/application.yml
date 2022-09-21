@@ -1,0 +1,68 @@
+spring:
+  application:
+    name: example-app
+    
+registration:
+ configproperties:
+  properties1:
+   topic1:
+    aaaa : bbbb
+    topickey1 : topicval1
+    topickey2 : topicval2
+    topickey3 : topicval3
+    topickey4 : topicval4
+    topickey5 : topicval5
+    topickey6 : topicval6
+    topickey7 : topicval7
+   topic2:
+    topicAkey1 : topicAval1
+    topicAkey2 : topicAval2
+    topicAkey3 : topicAval3
+    topicAkey4 : topicAval4
+    topicAkey5 : topicAval5
+    topicAkey6 : topicAval6
+   topic3:
+    topic3A : topicAval3A
+    topic3B : topicAval3B
+    topic3C : topicAval3C
+    topic3D : topicAval3D
+    topic3E : topicAval3E
+    topic3F : topicAval3F
+   topic4:
+    topic4A : topicAval4A
+    topic4B : topicAval4B
+    topic4C : topicAval4C
+    topic4D : topicAval4D
+    topic4E : topicAval4E
+    topic4F : topicAval4F
+   registration:    
+    supportedPartners: 150,152,153,5939,20064,20072
+    #supportedPartners: [150,152,153,5939,20064,20072]
+    rootPartnerPath: partners/
+  properties2:
+   topic5:    
+    topic5A : topicval5A
+    topic5B : topicval5B
+    topic5C : topicval5C
+    topic5D : topicval5D
+    topic5E : topicval5E
+    topic5F : topicval5F
+    topic5G : topicval5G
+   topic6:    
+    topic6A : topicval6A
+    topic6B : topicval6B
+    topic6C : topicval6C
+    topic6D : topicval6D
+    topic6E : topicval6E
+    topic6F : topicval6F
+    topic6G : topicval6G
+   topic7:    
+    topic7A : topicval7A
+    topic7B : topicval7B
+    topic7C : topicval7C
+    topic7D : topicval7D
+    topic7E : topicval7E
+    topic7F : topicval7F
+    topic7G : topicval7G
+
+ 

@@ -1,0 +1,60 @@
+{
+  "pid": 20055,
+  "name": "APPLE_TV",
+  "restEndPoints": [
+    {
+      "request": "SIGNIN",
+      "attributes": {
+        "SESSION_VAL_REQ": false,
+        "SESSION_FACTORY": "AUTH_SESSION",
+        "REMEMBER_ME_TTL_MILLIS": 7776000,
+        "DEFAULT_TTL_MILLIS": 900
+      }
+    },
+    {
+      "request": "PAYLOAD",
+      "attributes": {
+        "SESSION_VAL_REQ": true,
+        "SESSION_FACTORY": "AUTH_SESSION"
+      }
+    },
+    {
+      "request": "SESSIONINFO",
+      "attributes": {
+        "SESSION_VAL_REQ": true,
+        "SESSION_FACTORY": "AUTH_SESSION",
+        "PLATFORM_NAME": "appletv"
+      }
+    },
+    {
+      "request": "REGISTER",
+      "attributes": {
+        "SESSION_VAL_REQ": false,
+        "SESSION_FACTORY": "AUTH_SESSION",
+        "REMEMBER_ME_TTL_MILLIS": 7776000,
+        "DEFAULT_TTL_MILLIS": 900
+      }
+    },
+    {
+      "request": "SUBMITRECEIPT",
+      "attributes": {
+        "SESSION_VAL_REQ": true,
+        "SESSION_FACTORY": "AUTH_SESSION"
+      }
+    },
+    {
+      "request": "GETRECEIPTSTATUS",
+      "attributes": {
+        "SESSION_VAL_REQ": true,
+        "SESSION_FACTORY": "AUTH_SESSION"
+      }
+    },
+    {
+      "request": "VALIDATEPROUSER",
+      "attributes": {
+        "SESSION_VAL_REQ": true,
+        "SESSION_FACTORY": "AUTH_SESSION"
+      }
+    }
+  ]
+}

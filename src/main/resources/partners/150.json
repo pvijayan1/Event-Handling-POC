@@ -1,0 +1,25 @@
+{
+  "pid": 150,
+  "name": "IDX",
+  "restEndPoints": [
+    {
+      "request": "SIGNIN",
+      "attributes": {
+        "SESSION_VAL_REQ": true,
+        "SESSION_FACTORY": "IDX"
+      }
+    },
+    {
+      "request": "PAYLOAD",
+      "attributes": {
+        "SESSION_VAL_REQ": false
+      }
+    },
+    {
+      "request": "SIGNOUT",
+      "attributes": {
+        "SESSION_VAL_REQ": false
+      }
+    } 
+  ]
+}
