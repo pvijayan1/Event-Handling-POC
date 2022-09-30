@@ -14,6 +14,8 @@ import lombok.extern.slf4j.Slf4j;
 @Component
 public class UserCreationEventListenerType2 {
 	
+	//One class with multiple listeners
+	
 	@Autowired
 	PianoRepository pianoRepository;
 	

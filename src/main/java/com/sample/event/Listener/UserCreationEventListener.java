@@ -14,6 +14,8 @@ import lombok.extern.slf4j.Slf4j;
 @Component
 public class UserCreationEventListener {
 	
+	//multiple tasks(both Piano and SailThru) done by a single listener
+	
 	@Autowired
 	PianoRepository pianoRepository;
 	

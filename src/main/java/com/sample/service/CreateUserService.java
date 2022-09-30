@@ -33,8 +33,8 @@ public class CreateUserService {
 	public String createUser(UserRequest userRequest) {
 		String userSaved = null;
 		User user = User.builder().email(userRequest.getEmail()).password(userRequest.getPassword()).build();
-		testPropYml();
-		testFileLoading();
+		//testPropYml();
+		//testFileLoading();
 		updateIDXandBedRock(user);
 		if (!StringUtils.isBlank(user.getIdxId()) && !StringUtils.isBlank(user.getBedRockId())) {
 			userSaved = "User creation successful";

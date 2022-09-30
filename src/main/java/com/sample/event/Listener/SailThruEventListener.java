@@ -13,6 +13,8 @@ import lombok.extern.slf4j.Slf4j;
 @Component
 public class SailThruEventListener {
 	
+	//One listener listening for one event
+	
 	@Autowired
 	SailThruRepository sailThruRepository;
 	
