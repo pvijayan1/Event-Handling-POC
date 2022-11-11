@@ -6,6 +6,7 @@ import java.util.Map;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.context.ApplicationContext;
 
 import com.sample.Util.RegistrationUtil;
@@ -15,6 +16,7 @@ import com.sample.model.Partner;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
+//@RefreshScope
 @SpringBootApplication
 public class MyWebApplication {
 	

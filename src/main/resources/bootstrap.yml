@@ -1,0 +1,14 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: ExampleApp
+  cloud:
+    config:
+      uri: http://localhost:8888
+      enabled: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
